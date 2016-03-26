@@ -1,0 +1,112 @@
+<style>
+
+*{
+    box-sizing: border-box; 
+    
+    margin: 0px;
+  }
+  
+
+  h1{
+
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 5%;
+    font-size: 300%;
+    
+  }
+
+  .p{
+    margin-top: 15px;
+    padding: 0px;
+    font-family: sans-serif;  }
+
+  p.content{
+    padding: 14px 10px 5px 10px;
+  }
+
+
+  #p1{
+    background-color: #A52A2A;
+    font-family: Verdana; 
+
+  }
+
+
+  #p2{
+    background-color: #DEB887;
+    font-family: Verdana;
+  }
+  
+
+  #p3{
+    background-color: #5F9EA0;
+    font-family: verdana;
+  }
+  
+
+  .subtitle{
+    width:100px;
+    border:1px solid black;
+    float: right;
+    margin: 0px 0px 3px 0px;
+
+    text-align: center;
+    font-weight: bold;
+  }
+
+  #primarydiv{
+
+    width: 90%;
+    padding-left: 10%;
+    padding-right: 10%;
+    float: left;
+
+  }
+
+  
+  @media(min-width:992px) {
+    .desktop{
+      float: left;
+        border: 1px solid black;
+        width: 30.33%;
+      background-color: #00db9d;
+      margin-right: 20px;
+      
+    }
+
+
+      
+  }
+
+  @media(min-width: 768px) and (max-width: 991px) {
+
+      .tablet{
+          width: 45%;
+          float: left;
+          margin: 2%;
+        border: 1px solid black;
+        background-color: #00db9d;
+      
+      }  
+      div:nth-child(3){
+        width: 94%;       
+      }
+      
+  }
+
+
+  @media(max-width: 767px) { 
+
+    .mobile{
+
+      width: 90%;
+        border: 1px solid black;
+        background-color: #00db9d;
+        margin: 2%;
+          
+      
+    }
+  }
+
+  </style>
